@@ -1,0 +1,23 @@
+Location         : E:\td_code\video_hdmi_test\prj\video_hdmi_test_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : top_image
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : basic
+Setup            : WNS -5291ps  TNS  -265386ps  NUM_FEPS    91
+Hold             : WNS   471ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+  optimize_gate  |    1     |   9s(64%)   |    8(61%)     |        262        |        262        
+  optimize_rtl   |    1     |   5s(35%)   |    5(38%)     |        210        |        223        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        83         |        83         
+    read_adc     |    1     |   0s(0%)    |     0(0%)     |        165        |        165        
+    read_sdc     |    1     |   0s(0%)    |     0(0%)     |        165        |        165        
+--------------------------------------------------------------------------------------------------
+      total      |    5     |     14s     |      13       |        262        |        262        
+--------------------------------------------------------------------------------------------------
